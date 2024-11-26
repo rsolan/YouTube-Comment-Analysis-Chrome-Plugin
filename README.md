@@ -4,6 +4,11 @@
 
 Developed a Chrome extension that provides real-time sentiment analysis of YouTube comments, offering influencers valuable insights into audience engagement and feedback. The project integrates advanced machine learning tools and DevOps practices to ensure scalability and seamless deployment.
 
+The project leveraged a machine learning pipeline with MLflow for experiment tracking and DVC for managing datasets and model versions, ensuring reproducibility. A Flask API served as the backend, while the frontend was built using JavaScript for seamless integration with YouTube. The machine learning models, trained using SVM and XGBoost, were registered and deployed using a Docker application, and the deployment process was automated via CI/CD pipelines. The application was hosted on AWS EC2, with Auto Scaling Groups (ASG) for high availability and load balancing, while AWS CodeDeploy facilitated smooth rolling updates during deployment. The entire system was optimized for efficiency with continuous integration, tracking, and automated deployment, ensuring scalability and ease of maintenance.
+
+
+
+
 ## Key Highlights:
 
 MLflow for Experiment Tracking: Utilized MLflow to track machine learning experiments, enabling efficient model management and version control throughout the project lifecycle.
