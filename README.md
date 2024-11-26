@@ -1,7 +1,38 @@
-yt-comment-sentiment-analysis
-==============================
+# YouTube Comment Sentiment Analysis Chrome Plugin with MLflow and AWS
 
-A small chrome plugin to detect youtube comment sentiments
+## Description:
+
+Developed a Chrome extension that provides real-time sentiment analysis of YouTube comments, offering influencers valuable insights into audience engagement and feedback. The project integrates advanced machine learning tools and DevOps practices to ensure scalability and seamless deployment.
+
+## Key Highlights:
+
+MLflow for Experiment Tracking: Utilized MLflow to track machine learning experiments, enabling efficient model management and version control throughout the project lifecycle.
+
+Model Deployment & CI/CD: Deployed sentiment analysis models using Flask API, integrated with a CI/CD pipeline to automate model deployment on AWS EC2 instances. Leveraged Docker for containerization and AWS ECR for image storage.
+
+DVC Pipeline Integration: Managed datasets and model versions through DVC, ensuring reproducibility and consistency across development and production environments.
+
+Scalable Deployment on AWS: Configured an Auto Scaling Group (ASG) with two EC2 instances for load balancing and fault tolerance. Implemented deployment strategies using AWS CodeDeploy with rolling updates for zero-downtime deployments.
+
+Frontend with JavaScript: Designed the user-facing component as a Chrome extension using JavaScript, offering users real-time sentiment insights directly on YouTube.
+
+CI Flow Automation: Streamlined the CI/CD flow for automated pipeline execution, ensuring continuous delivery and integration of updates with minimal manual intervention.
+
+## Technologies Used:
+
+Machine Learning: SVM, XGBoost
+
+Backend: Flask API
+
+Experiment Tracking & Model Registry: MLflow, DVC
+
+Containerization & Deployment: Docker, AWS ECR, EC2, CodeDeploy, Auto Scaling Groups (ASG)
+
+Frontend: JavaScript (Chrome Extension)
+
+CI/CD Automation: AWS CodePipeline, CodeDeploy
+
+This project demonstrates expertise in machine learning model tracking, pipeline management, and automated deployment, offering scalable and reliable insights for YouTube content creators.
 
 Project Organization
 ------------
